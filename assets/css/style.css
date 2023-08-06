@@ -1041,7 +1041,6 @@ a:hover {
 .savoir-button {
   border-radius: 12px;
   width: 125px;
-  height: 50;
   color: #833f11 ;
   background-color: #f2f2f2;
   border: #833f11 solid;
@@ -1051,7 +1050,16 @@ a:hover {
 
 
 }
+.savoir-button a{
 
+  color: #833f11 ;
+
+}
+.savoir-button:hover a{
+
+  color: white;
+
+}
 .savoir-button:hover {
   border-radius: 12px;
   width: 160px;
