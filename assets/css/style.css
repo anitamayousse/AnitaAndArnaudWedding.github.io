@@ -917,6 +917,14 @@ a:hover {
   position: relative;
   color: #fff;
 }
+@media (max-width: 500px) {
+  .hero {
+    height: 80vh;
+    position: relative;
+    color: #fff;
+  }
+}
+
 
 .hero .hero-content {
   text-align: center;
