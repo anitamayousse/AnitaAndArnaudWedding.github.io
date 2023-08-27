@@ -917,7 +917,7 @@ a:hover {
   position: relative;
   color: #fff;
 }
-@media (max-width: 500px) {
+@media (max-width: 1024px) {
   .hero {
     height: 80vh;
     position: relative;
