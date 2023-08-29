@@ -221,12 +221,12 @@
           <div class="col-md-6">
             <p>
               Nous nous sommes rencontrés dans les tous premiers jours de l’année 2017 au cœur de l’hiver canadien. Ne pouvant pas sortir à cause du froid polaire nous avons eu le temps d’échanger des heures sur nos cultures et pays respectifs et de faire connaissance. 
-              Après trois belles années passées à Montréal où nous avons habités pour la première fois ensemble, nous avons décidés de (ré)emménager à Paris fin 2019, étant sûrs d’être fait l’un pour l’autre.
+              Après trois belles années passées à Montréal où nous avons habité pour la première fois ensemble, nous avons décidés de (ré)emménager à Paris fin 2019, étant sûrs d’être fait l’un pour l’autre.
             </p>
           </div>
           <div class="col-md-6">
             <p>
-              C’est là que nous avons décidés de nous marier. Les aléas de l’année 2020 ont fait que nous n’avons pas pu célébrer ce moment tous ensemble. 
+              C’est là que nous avons décidé de nous marier. Les aléas de l’année 2020 ont fait que nous n’avons pas pu célébrer ce moment tous ensemble. 
               Mais nous comptons bien rattraper cela et partager cette étape importante pour nous avec vous. 
               Vous êtes donc solennellement conviés à ce grand moment !
             </p>
@@ -343,9 +343,9 @@
                 </h5>
               </div>
               <p class="lead">
-                Le Domaine peut aisément accueillir l’ensemble des participants à notre mariage. 
+                Le Domaine peut aisément accueillir l’ensemble des invités à notre mariage. 
                 Il y a différents types de logements, pour tous les goûts et tous les budgets (gîtes, chambres, maisons familiales, camping). (Ils se situent tous entre quelques mètres et un kilomètre et demi du cœur des festivités!)
-                <p class="lead">IMPORTANT: pour le moment les réservations ne sont pas disponibles mais le Domaine nous avertira en amont lorsque ces dernières seront mises à la vente. Nous ne manquerons pas de vous avertir à ce moment-là pour que vous puissiez bénéficier de l’ensemble des logements en avant-première et ainsi faire votre choix. 
+                <p class="lead">IMPORTANT: pour le moment les réservations ne sont pas disponibles mais le Domaine nous avertira en amont lorsque ces dernières seront en amont lorsqu'elles le seront. Nous ne manquerons pas de vous avertir à ce moment-là pour que vous puissiez bénéficier de l’ensemble des logements en avant-première et ainsi faire votre choix. 
                 </p>
               </p>
               <button class="savoir-button">
@@ -452,17 +452,22 @@
                     <form action="https://formspree.io/f/xoqoabaq" method="POST">
                       <div class="form-row">
                         <div class="col-md-12 mb-4">
-                          <input type="name" class="form-control" id="name" name="Nom Prénom " placeholder="Nom Prénom ">
+                          <input type="name" class="form-control" id="name" name="Nom Prénom " placeholder="Nom Prénom " required>
                         </div>
                         <div class="col-md-12 mb-4">
 
                           <input type="email" class="form-control" id="email" name="Adresse e-mail "
-                            placeholder="Adresse e-mail ">
+                            placeholder="Adresse e-mail " required>
+                        </div>
+                        <div class="col-md-12 mb-4">
+
+                          <input type="tel" class="form-control" id="tel" name="Mobile"
+                            placeholder="Mobile" required>
                         </div>
                         <div class="row ">
                           <div class="col-md-6 mb-4">
                             <select id="inputState" class="form-control" name="Pouvez-vous venir au mariage?"
-                              placeholder="Pouvez-vous venir au mariage?">
+                              placeholder="Pouvez-vous venir au mariage?" required>
                               <option selected>Pouvez-vous venir au mariage?</option>
                               <option> Oui </option>
                               <option> Non </option>
@@ -470,12 +475,11 @@
                           </div>
                           <div class=" col-md-6 mb-4">
                             <input type="text" class="form-control" id="inputZip" name="Serez-vous accompagné(e)?"
-                              placeholder="Serez-vous accompagné(e)?">
+                              placeholder="Serez-vous accompagné(e)?" required>
                           </div>
                         </div>
                         <div class=" col-md-6 mb-4">
-
-                          <input type="text" class="form-control" id="inputCity" name="Avez-vous un message/une question pour nous?"
+                          <input type="text" class="form-control message" id="comment" name="Avez-vous un message/une question pour nous?"
                             placeholder="Avez-vous un message/une question pour nous?">
                         </div>
                         <button type="submit" class="savoir-button">
